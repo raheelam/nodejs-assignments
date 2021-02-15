@@ -1,0 +1,13 @@
+<%- include('includes/top.ejs') %>
+
+</head>
+<body>
+    <form action="/users" method="POST">
+        <h1>Enter your  name below</h1>
+       
+            <label for="name">Name:</label>
+            <input type="text" name="name"/>
+        
+            <button type="submit">Submit</button>
+    </form>
+<%- include('includes/bottom.ejs') %>
